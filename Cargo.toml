@@ -1,5 +1,5 @@
 [package]
-name = "serde-jsons"
+name = "serde_json"
 version = "1.0.81" # remember to update html_root_url
 authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>", "David Tolnay <dtolnay@gmail.com>"]
 license = "MIT OR Apache-2.0"
@@ -22,7 +22,7 @@ ryu = "1.0"
 automod = "1.0"
 ref-cast = "1.0"
 rustversion = "1.0"
-serde = { version = "1.0.100", features = ["derive"] }
+serde = { git = "https://github.com/njeans/serde", version = "1.0.100", features = ["derive"] }
 serde_bytes = "0.11"
 serde_derive = "1.0"
 serde_stacker = "0.1"
