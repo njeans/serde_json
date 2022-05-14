@@ -10,10 +10,10 @@ keywords = ["json", "serde", "serialization"]
 categories = ["encoding"]
 readme = "README.md"
 edition = "2018"
-rust-version = "1.36"
+#rust-version = "1.36"
 
 [dependencies]
-serde = { git = "https://github.com/serde-rs/serde", version = "1.0.137", default-features = false }
+serde = { git = "https://github.com/njeans/serde", version = "1.0.137", default-features = false }
 indexmap = { version = "1.5.2", features = ["std"], optional = true }
 itoa = "1.0"
 ryu = "1.0"
