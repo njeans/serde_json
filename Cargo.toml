@@ -1,5 +1,5 @@
 [package]
-name = "serde_json"
+name = "serde-json"
 version = "1.0.81" # remember to update html_root_url
 authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>", "David Tolnay <dtolnay@gmail.com>"]
 license = "MIT OR Apache-2.0"
